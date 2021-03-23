@@ -34,6 +34,10 @@
     color: #fafafa;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 header {
     margin: 0;
 }
@@ -304,4 +308,32 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+.contact-heading {
+    font-family: "Exo";
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fafafa;
+    background-color: darkcyan;
+}
+
+
+@media(min-width: 992px) {
+    padding-top: 30px;
+    min-height: 240px;
+    max-width: 50%;
 }
